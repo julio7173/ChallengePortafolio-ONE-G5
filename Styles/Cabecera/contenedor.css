@@ -1,0 +1,6 @@
+.contenedor{
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    background-color: rgb(0, 0, 0);
+}

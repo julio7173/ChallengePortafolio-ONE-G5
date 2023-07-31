@@ -1,0 +1,26 @@
+.presentacion__lista-redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.github{
+    width: 150px;
+    height: 150px;
+    transition: transform 1s;
+}
+
+.youtube, .linkedin{
+    width: 120px;
+    height: 150px;
+    transition: transform 1s;
+}
+
+.instagram{
+    width: 100px;
+    height: 150px;
+    transition: transform 1s;
+}
+
+.github:hover, .linkedin:hover, .instagram:hover, .youtube:hover{
+    transform: translate(0, 10px) scale(1.2);
+}
