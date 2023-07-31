@@ -1,0 +1,31 @@
+/*----------CONTENEDOR----------*/
+.contenedor{
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*----------CABECERA----------*/
+.cabecera__lista-nav{
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    font-size: 1.5rem;
+}
+
+.cabecera__lista-link{
+    padding-right: 1.3rem;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    color: aqua;
+}
+
+.cabecera__lista-link:hover {
+    color: gold; 
+  }
+
+
+
+/*----------CONTENEDOR----------*/
