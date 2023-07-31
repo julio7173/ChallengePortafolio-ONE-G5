@@ -1,0 +1,10 @@
+.sobreMi{
+    display: inline-block;
+    font-family: "Kanit", sans-serif;
+    background: linear-gradient(to bottom, blue 1%, black 1%);
+    height: 450px;
+}
+
+.sobreMi__texto{
+    margin: 2rem 2rem 2rem 1.5rem;
+}

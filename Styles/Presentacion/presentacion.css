@@ -1,8 +1,8 @@
 .presentacion{
     display: flex;
     flex-direction: row;
-    background: linear-gradient(#BFA77F, #9C7E5A);
-    height: 450px;
+    background: linear-gradient(to bottom, red 1%, black 1%);
+    height: 500px;
 }
 
 .presentacion__texto{

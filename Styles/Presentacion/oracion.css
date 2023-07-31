@@ -1,6 +1,11 @@
+.presentacion__texto-grupo{
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
 .presentacion__texto-oracion{
     font-family: "Kanit", sans-serif;
     font-size: 1.2rem;
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
 }
