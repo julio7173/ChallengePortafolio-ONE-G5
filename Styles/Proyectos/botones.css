@@ -1,0 +1,22 @@
+.repositorio{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    background-color: #000000;
+    color: #b6ff00;
+}
+
+.demo{
+    background-color: #b6ff00;
+    color: #000000;
+}
+
+.repositorio, .demo{
+    font-size: 2rem;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: transform 1s;
+}
+
+.repositorio:hover, .demo:hover{
+    transform: translate(0, -15px);
+}
