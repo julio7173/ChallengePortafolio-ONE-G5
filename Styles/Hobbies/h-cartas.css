@@ -1,0 +1,18 @@
+.hobbie__carta{
+    width: 200px;
+    height: 200px;
+    margin-top: 10rem;
+    transition: transform 1s;
+}
+
+.hobbie__carta:hover{
+    transform: translate(0, -30px);
+}
+
+.hobbies__leyenda{
+    color: #ffffff;
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 25px;
+}

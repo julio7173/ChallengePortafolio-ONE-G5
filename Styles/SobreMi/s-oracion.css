@@ -1,0 +1,11 @@
+.sobreMi__texto-grupo{
+    margin: 4rem 5rem;
+}
+
+.sobreMi__texto-oracion{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #70ff00;
+    background-color: #000000;
+    border-radius: 10px;
+}

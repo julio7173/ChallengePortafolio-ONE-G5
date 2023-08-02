@@ -1,8 +1,9 @@
 .presentacion{
     display: flex;
     flex-direction: row;
-    background: linear-gradient(to bottom, red 1%, black 1%);
-    height: 500px;
+    /*background: linear-gradient(to bottom, red 1%, black 1%);*/
+    background-image: url("/Icon/SVG/Tatooine.svg");
+    height: 530px;
 }
 
 .presentacion__texto{

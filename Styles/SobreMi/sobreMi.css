@@ -1,8 +1,8 @@
 .sobreMi{
     display: inline-block;
     font-family: "Kanit", sans-serif;
-    background: linear-gradient(to bottom, blue 1%, black 1%);
-    height: 450px;
+    background-image: url("/Icon/SVG/Star-Killer.svg");
+    height: 650px;
 }
 
 .sobreMi__texto{
