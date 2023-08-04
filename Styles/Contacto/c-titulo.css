@@ -1,0 +1,12 @@
+.contacto__titulo{
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+
+.contacto__leyenda{
+    display: flex;
+    justify-content: end;
+    font-weight: 550;
+    font-size: 1.5rem;
+    margin-right: 5.6rem;
+}

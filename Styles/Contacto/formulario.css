@@ -1,0 +1,41 @@
+.contacto__formulario{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0000004d;
+    margin: 5rem 2rem 2rem 40rem;
+    border-radius: 10px;
+}
+
+.contacto__nombre, .contacto__email, .contacto__asunto, .contacto__mensaje{
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background-color: #000000;
+    color: aqua;
+}
+
+.contacto__nombre, .contacto__email, .contacto__asunto{
+    height: 1.2rem;
+}
+
+.contacto__mensaje{
+    height: 8rem;
+}
+
+.contacto__enviar{
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    background-color: #000000;
+    color: aqua;
+    transition: width 5s;
+}
+
+.contacto__enviar:hover{
+    width: 500px;
+    background-color: red;
+    color: #FFFFFF;
+}

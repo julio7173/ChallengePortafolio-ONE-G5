@@ -31,6 +31,9 @@
         <link rel="stylesheet" href="Styles/Proyectos/p-titulo.css">
         <link rel="stylesheet" href="Styles/Proyectos/muestra.css">
         <link rel="stylesheet" href="Styles/Proyectos/botones.css">
+        <link rel="stylesheet" href="Styles/Contacto/contacto.css">
+        <link rel="stylesheet" href="Styles/Contacto/c-titulo.css">
+        <link rel="stylesheet" href="Styles/Contacto/formulario.css">
     </head>
 
     <body>
@@ -42,7 +45,7 @@
                     <li> <a class="cabecera__lista-link" href="#hobbies"> Hobbies </a> </li>
                     <li> <a class="cabecera__lista-link" href="#formacionAcademica"> Formación </a> </li>
                     <li> <a class="cabecera__lista-link" href="#proyectos"> Proyectos </a> </li>
-                    <li> <a class="cabecera__lista-link" href="#"> Contacto </a> </li>
+                    <li> <a class="cabecera__lista-link" href="#contacto"> Contacto </a> </li>
                 </ul>
             </nav>
         </header>
@@ -187,6 +190,19 @@
                         </div>
                     </figure>
                 </div>
+            </section>
+            <section class="contacto" id="contacto">
+                <div class="contacto__texto-titulo">
+                    <h2 class="contacto__titulo"> Contacto </h2>
+                    <h3 class="contacto__leyenda"> Envía el formulario y estaré en contacto contigo pronto </h3>
+                </div>
+                <form class="contacto__formulario">
+                    <input type="text" class="contacto__nombre" placeholder="Nombre">
+                    <input type="email" class="contacto__email" placeholder="Correo">
+                    <input type="text" class="contacto__asunto" placeholder="Asunto">
+                    <textarea type="text" class="contacto__mensaje" placeholder="Mensaje"> </textarea>
+                    <input type="submit" class="contacto__enviar" value="Enviar">
+                </form>
             </section>
         </main>
     </body>
