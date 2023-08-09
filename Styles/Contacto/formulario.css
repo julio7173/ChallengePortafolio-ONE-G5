@@ -8,10 +8,10 @@
     border-radius: 10px;
 }
 
-.contacto__nombre, .contacto__email, .contacto__asunto, .contacto__mensaje{
+.contacto__nombre, .contacto__email, .contacto__asunto, .contacto__mensaje, .contacto__enviar{
     border-radius: 20px;
     padding: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     background-color: #000000;
     color: aqua;
 }
@@ -25,17 +25,6 @@
 }
 
 .contacto__enviar{
-    height: 3rem;
-    width: 7rem;
-    font-size: 1.2rem;
-    border-radius: 20px;
-    background-color: #000000;
-    color: aqua;
-    transition: width 5s;
-}
-
-.contacto__enviar:hover{
-    width: 500px;
-    background-color: red;
-    color: #FFFFFF;
+    width: 100px;
+    max-width: 500px;
 }

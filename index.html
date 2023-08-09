@@ -34,6 +34,7 @@
         <link rel="stylesheet" href="Styles/Contacto/contacto.css">
         <link rel="stylesheet" href="Styles/Contacto/c-titulo.css">
         <link rel="stylesheet" href="Styles/Contacto/formulario.css">
+        <link rel="stylesheet" href="Styles/Rodapie/rodapie.css">
     </head>
 
     <body>
@@ -110,10 +111,6 @@
                     <figure>
                         <img src="/Icon/SVG/js.svg" alt="JavaScript" class="carta">
                         <figcaption class="skills__leyenda"> JavaScript </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/Icon/SVG/nodejs.svg" alt="NodeJS" class="carta">
-                        <figcaption class="skills__leyenda"> NodeJS </figcaption>
                     </figure>
                     <figure>
                         <img src="/Icon/SVG/java.svg" alt="Java" class="carta">
@@ -196,15 +193,27 @@
                     <h2 class="contacto__titulo"> Contacto </h2>
                     <h3 class="contacto__leyenda"> Envía el formulario y estaré en contacto contigo pronto </h3>
                 </div>
-                <form class="contacto__formulario">
-                    <input type="text" class="contacto__nombre" placeholder="Nombre">
-                    <input type="email" class="contacto__email" placeholder="Correo">
-                    <input type="text" class="contacto__asunto" placeholder="Asunto">
-                    <textarea type="text" class="contacto__mensaje" placeholder="Mensaje"> </textarea>
-                    <input type="submit" class="contacto__enviar" value="Enviar">
+                <form class="contacto__formulario" data-formulario>
+                    <input type="text" class="contacto__nombre" placeholder="Nombre" required data-type="nombre">
+                    <span class="error"></span>
+                    <input type="email" class="contacto__email" placeholder="Correo" required data-type="email">
+                    <span class="error"></span>
+                    <input type="text" class="contacto__asunto" placeholder="Asunto" required data-type="asunto">
+                    <span class="error"></span>
+                    <textarea type="text" class="contacto__mensaje" placeholder="Mensaje" required data-type="mensaje"></textarea>
+                    <span class="error"></span>
+                    <input type="submit" class="contacto__enviar" value="Enviar" data-type="enviar">
                 </form>
+                <script src="/Formulario/formulario.js"></script>
             </section>
         </main>
+        
     </body>
+
+    <footer>
+        <section class="rodapie">
+            <p> &#169 Julio Cesar Severiche Orellana | 2023 </p>
+        </section>
+    </footer>
 
 </html>
