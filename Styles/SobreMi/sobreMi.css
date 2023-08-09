@@ -8,3 +8,17 @@
 .sobreMi__texto{
     margin: 2rem 2rem 2rem 1.5rem;
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .sobreMi{
+        height: 400px;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .sobreMi{
+        height: 950px;
+    }
+}

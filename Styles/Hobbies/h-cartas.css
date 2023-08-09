@@ -16,3 +16,31 @@
     background-color: #000000;
     border-radius: 25px;
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .hobbie__carta{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 3rem;
+    }
+    
+    .hobbies__leyenda{
+        font-size: 1rem;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .hobbie__carta{
+        width: 8rem;
+        height: 8rem;
+        margin-top: 2rem;
+    }
+    
+    .hobbies__leyenda{
+        font-size: 1rem;
+        width: 10rem;
+        margin-left: 6.4rem;
+    }
+}

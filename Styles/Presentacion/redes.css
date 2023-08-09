@@ -20,3 +20,20 @@
 .github:hover, .linkedin:hover, .instagram:hover, .youtube:hover{
     transform: translate(0, 10px) scale(1.2);
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .github, .youtube, .linkedin, .instagram{
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .github, .youtube, .linkedin, .instagram{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 10px;
+    }
+}

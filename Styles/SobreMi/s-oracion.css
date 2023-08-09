@@ -9,3 +9,21 @@
     background-color: #000000;
     border-radius: 10px;
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .sobreMi__texto-oracion{
+        font-size: 1rem;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .sobreMi__texto-grupo{
+        margin: 1rem;
+    }
+    
+    .sobreMi__texto-oracion{
+        font-size: 1.5rem;
+    }
+}

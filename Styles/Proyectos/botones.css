@@ -20,3 +20,27 @@
 .repositorio:hover, .demo:hover{
     transform: translate(0, -15px);
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .repositorio{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .repositorio, .demo{
+        font-size: 1.2rem;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .repositorio{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .repositorio, .demo{
+        font-size: 1.2rem;
+    }
+}

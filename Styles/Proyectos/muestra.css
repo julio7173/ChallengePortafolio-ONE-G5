@@ -29,3 +29,46 @@
     margin-top: 0.3rem;
     font-size: 1.5rem;
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .proyectos__muestra{
+        margin: 5rem 2rem 2rem 5rem;
+    }
+    
+    .muestra{
+        width: 15rem;
+        border-radius: 10px;
+    }
+    
+    .muestra__leyenda{
+        width: 15rem;
+        border-radius: 50px;
+    }
+    
+    .principal, .secundario{
+        font-size: 1rem;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .proyectos__muestra{
+        margin: 5rem 1rem 2rem 2rem;
+        flex-direction: column;
+    }
+    
+    .muestra{
+        width: 18rem;
+        border-radius: 10px;
+    }
+    
+    .muestra__leyenda{
+        width: 18rem;
+        border-radius: 50px;
+    }
+    
+    .principal, .secundario{
+        font-size: 1rem;
+    }
+}

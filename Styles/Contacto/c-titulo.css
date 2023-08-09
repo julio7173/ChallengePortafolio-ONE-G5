@@ -10,3 +10,28 @@
     font-size: 1.5rem;
     margin-right: 5.6rem;
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .contacto__titulo{
+        font-size: 2rem;
+    }
+    
+    .contacto__leyenda{
+        font-size: 1rem;
+        justify-content: start;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .contacto__titulo{
+        font-size: 3rem;
+    }
+    
+    .contacto__leyenda{
+        font-size: 1rem;
+        font-weight: 400;
+        justify-content: start;
+    }
+}

@@ -3,3 +3,19 @@
     font-weight: 600;
     color: #601b1a;
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .proyectos__titulo{
+        font-size: 2rem;
+        color: #000000;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .proyectos__titulo{
+        font-size: 3rem;
+        color: #000000;
+    }
+}

@@ -8,3 +8,19 @@
 .perfil:hover{
     transform: scale(1.06);
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .perfil{
+        width: 250px;
+        height: 300px;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .perfil{
+        width: 300px;
+        height: 390px;
+    }
+}

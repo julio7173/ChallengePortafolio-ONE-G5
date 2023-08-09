@@ -1,7 +1,6 @@
 .presentacion{
     display: flex;
     flex-direction: row;
-    /*background: linear-gradient(to bottom, red 1%, black 1%);*/
     background-image: url("/Icon/SVG/Tatooine.svg");
     height: 530px;
 }
@@ -15,4 +14,19 @@
     flex-basis: 40%;
     margin: 2rem 1.5rem;
     text-align: center;
+}
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .presentacion{
+        height: 400px;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .presentacion{
+        flex-direction: column-reverse;
+        height: 1000px;
+    }
 }

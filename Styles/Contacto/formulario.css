@@ -28,3 +28,21 @@
     width: 100px;
     max-width: 500px;
 }
+
+/* Portrait and Landscape ------------ Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .contacto__formulario{
+        width: 20rem;
+        height: 25rem;
+        margin: 2rem 2rem 2rem 15rem;
+    }
+}
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .contacto__formulario{
+        width: 20rem;
+        height: 28rem;
+        margin: 2rem 2rem 2rem 1.5rem;
+    }
+}

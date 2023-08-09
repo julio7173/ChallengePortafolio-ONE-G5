@@ -84,3 +84,29 @@ for (let i = 0; i < campos.length - 1; i++) {
     validarCampo(campos[i], i); // Llama a la función validarCampo con el campo y su índice
   });
 }
+
+
+function habilitarEnviar() {
+  // Comprueba si todos los campos están rellenos
+  let todosLlenos = true;
+  for (let i = 0; i < campos.length; i++) {
+  if (campos[i].value.trim() === "") {
+  todosLlenos = false;
+  break;
+  }
+  }
+  
+  // Si todos los campos están rellenos, habilita el botón Enviar y cambia el color a rojo
+  if (todosLlenos) {
+  enviar.disabled = false;
+  enviar.style.width = "500px";
+  enviar.style.color = "gold";
+  } else {
+  enviar.disabled = true;
+  }
+  }
+  
+  // Añade un evento blur a cada campo para habilitar el botón Enviar cuando todos los campos estén rellenos
+  for (let i = 0; i < campos.length; i++) {
+  campos[i].addEventListener("blur", habilitarEnviar);
+  }
