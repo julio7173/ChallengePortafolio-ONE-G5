@@ -72,3 +72,25 @@
         font-size: 1rem;
     }
 }
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .proyectos__muestra{
+        margin: 5rem 1rem 2rem 2rem;
+        flex-direction: column;
+    }
+    
+    .muestra{
+        width: 18rem;
+        border-radius: 10px;
+    }
+    
+    .muestra__leyenda{
+        width: 18rem;
+        border-radius: 50px;
+    }
+    
+    .principal, .secundario{
+        font-size: 1rem;
+    }
+}

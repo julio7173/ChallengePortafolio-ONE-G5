@@ -19,3 +19,11 @@
         color: #000000;
     }
 }
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .proyectos__titulo{
+        font-size: 3rem;
+        color: #000000;
+    }
+}

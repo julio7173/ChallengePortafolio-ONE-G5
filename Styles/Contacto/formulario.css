@@ -46,3 +46,12 @@
         margin: 2rem 2rem 2rem 1.5rem;
     }
 }
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contacto__formulario{
+        width: 20rem;
+        height: 28rem;
+        margin: 2rem 2rem 2rem 1.5rem;
+    }
+}

@@ -42,3 +42,17 @@
         height: 8rem;
     }
 }
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .skills__carta{
+        flex-direction: column;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .carta{
+        width: 8rem;
+        height: 8rem;
+    }
+}

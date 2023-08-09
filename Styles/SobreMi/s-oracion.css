@@ -27,3 +27,14 @@
         font-size: 1.5rem;
     }
 }
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .sobreMi__texto-grupo{
+        margin: 1rem;
+    }
+    
+    .sobreMi__texto-oracion{
+        font-size: 1.5rem;
+    }
+}

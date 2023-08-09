@@ -41,3 +41,17 @@
         margin-left: 6.4rem;
     }
 }
+
+/* Portrait and Landscape ------------ Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .skills{
+        height: 800px;
+    }
+    
+    .skills__leyenda{
+        font-size: 1rem;
+        width: 10rem;
+        margin-bottom: 1.2rem;
+        margin-left: 6.4rem;
+    }
+}
