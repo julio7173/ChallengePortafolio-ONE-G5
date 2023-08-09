@@ -1,7 +1,7 @@
 .formacion{
     font-family: "Kanit", sans-serif;
     display: inline-block;
-    background-image: url("/Icon/SVG/TemploJedi.svg");
+    background-image: url("./Icon/SVG/TemploJedi.svg");
     width: 100%;
     height: 650px;
 }

@@ -1,7 +1,7 @@
 .presentacion{
     display: flex;
     flex-direction: row;
-    background-image: url("/Icon/SVG/Tatooine.svg");
+    background-image: url("./Icon/SVG/Tatooine.svg");
     height: 530px;
 }
 
